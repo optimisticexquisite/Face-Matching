@@ -29,7 +29,7 @@ class TestFaceMatching(unittest.TestCase):
         self.tolerance = ''
         self.threshold = ''
 
-        pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+        # pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
         # pytesseract.pytesseract.tesseract_cmd = r'D:/Tesseract-OCR/tesseract.exe'
 
     # executed after each test
